@@ -1,1 +1,51 @@
 # random-age
+
+> Generate a random age.
+
+
+[![MIT License](https://img.shields.io/badge/license-MIT_License-green.svg?style=flat-square)](https://github.com/mock-end/random-age/blob/master/LICENSE)
+
+[![build:?](https://img.shields.io/travis/mock-end/random-age/master.svg?style=flat-square)](https://travis-ci.org/mock-end/random-age)
+[![coverage:?](https://img.shields.io/coveralls/mock-end/random-age/master.svg?style=flat-square)](https://coveralls.io/github/mock-end/random-age)
+
+
+## Install
+
+```
+$ npm install --save random-age 
+```
+
+## Usage
+
+```js
+var randomAge = require('random-age');
+
+// API
+// - randomAge();
+// - randomAge(type);
+```
+
+Default range is between `1` and `120`:
+
+```js
+randomAge();
+// => 45
+```
+
+Optionally specify one of a handful of enumerated age types:
+
+
+```js
+randomAge('child');
+// => 9
+```
+
+## Related
+
+
+## Contributing
+
+Pull requests and stars are highly welcome.
+
+For bugs and feature requests, please [create an issue](https://github.com/mock-end/random-age/issues/new).
+
