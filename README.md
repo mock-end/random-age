@@ -40,6 +40,9 @@ randomAge('child');
 // => 9
 ```
 
+Allowed types are: `child`, `teen`, `adult`, `senior`.
+
+
 ## Related
 
 - [random-birthday](https://github.com/mock-end/random-birthday) - Generate a random birthday. 
