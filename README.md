@@ -42,6 +42,11 @@ randomAge('child');
 
 ## Related
 
+- [random-birthday](https://github.com/mock-end/random-birthday) - Generate a random birthday. 
+- [random-firstName](https://github.com/mock-end/random-firstName) - Generate a random first name. 
+- [random-lastName](https://github.com/mock-end/random-lastName) - Generate a random last name. 
+- [random-fullName](https://github.com/mock-end/random-fullName) - Generate a random full name. 
+
 
 ## Contributing
 
