@@ -5,7 +5,12 @@ describe('random-age: ', function () {
   var randomAge = require('../../');
 
   it('common', function () {
-    expect(randomAge()).to.be.within(18, 65);
-    expect(randomAge('child')).to.be.within(1, 18);
+
+    var count = 100;
+
+    while (count--) {
+      expect(randomAge()).to.be.within(1, 120);
+      expect(randomAge('child')).to.be.within(1, 18);
+    }
   });
 });
