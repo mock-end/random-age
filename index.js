@@ -11,9 +11,11 @@ var ageRange = {
   all: { min: 1, max: 120 }
 };
 
-module.exports = function (type) {
+module.exports = function (options) {
 
-  var range = ageRange[type] || ageRange.all;
+  var range = options && options.type && ageRange[options.type] || ageRange.all;
 
-  return randomNatural(range.min, range.max);
+  range.inspected = true;
+
+  return randomNatural(range);
 };

@@ -22,7 +22,7 @@ var randomAge = require('random-age');
 
 // API
 // - randomAge();
-// - randomAge(type);
+// - randomAge([options]);
 ```
 
 Default range is between `1` and `120`:
@@ -36,7 +36,7 @@ Optionally specify one of a handful of enumerated age types:
 
 
 ```js
-randomAge('child');
+randomAge({ type: 'child' });
 // => 9
 ```
 

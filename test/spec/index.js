@@ -10,7 +10,7 @@ describe('random-age: ', function () {
 
     while (count--) {
       expect(randomAge()).to.be.within(1, 120);
-      expect(randomAge('child')).to.be.within(1, 18);
+      expect(randomAge({ type: 'child' })).to.be.within(1, 18);
     }
   });
 });
